@@ -3,7 +3,7 @@
 %% Spontaneous Instability Data Set
 clear all, close all;
 load spont_instability_data.mat
-rho = reshape(myrhos,3001*156,131);
+rho = reshape(myrhos,3001*156,131);  % nx=3001, nz=146, ntime=131
 data = rho; 
 
 [M,N] = size(data);
